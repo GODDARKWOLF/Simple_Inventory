@@ -1,5 +1,6 @@
 @include('home')
 <title>Editing Page</title>
+<link rel="stylesheet" href="/resources/css/edit.css">
 <!-- I just copied the code in create and changed the form method to put and the placeholder 
   to value so that it has the right information to change -->
 <section class="edit">
