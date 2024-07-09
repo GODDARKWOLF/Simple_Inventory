@@ -1,6 +1,6 @@
 <title>Creation</title>
 <div>
-    <section>
+    <section class="wrapper-main">
       <form action="{{route('list_create')}}" method="POST">
         @csrf
         <label for="Item_name">Item</label>
