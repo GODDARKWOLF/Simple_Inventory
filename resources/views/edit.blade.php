@@ -11,9 +11,10 @@
   {
 
     font-family: 'Franklin Gothic Medium';
-    font-size: medium;
+    font-size: 18;
+    text-align: center;
     margin: 10px;
-    background-color: burlywood;
+    background-color: lightblue;
 
   }
 
@@ -43,6 +44,11 @@
     width: 50%;
     height: 50%;
     resize: both;
+  }
+
+  input[type="text"],textarea,input[type="number"]
+  {
+    background-color: rgb(153, 235, 135);
   }
 
   input[type="text"],textarea,input[type="number"],button

@@ -6,11 +6,19 @@
     width: 500px;
   }
 
+  .create
+  {
+    font-size: 18;
+    font-family: 'franklin Gothic Medium';
+    text-align: center;
+  }
+
   body
   {
 
     font-family: 'Franklin Gothic Medium';
     font-size: medium;
+    text-align: center;
     margin: 10px;
     background-color: blueviolet;
 
@@ -25,6 +33,23 @@
   {
     background-color: hotpink;
     cursor: pointer;
+  }
+
+  table
+  {
+    padding: 10px;
+    border-radius: 10px;
+    width: 75%;
+    height: 75%;
+  }
+
+  thead, tbody
+  {
+    padding: 15px;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    
   }
 
 </style>
