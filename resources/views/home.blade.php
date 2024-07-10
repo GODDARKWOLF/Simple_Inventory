@@ -41,6 +41,7 @@
     border-radius: 10px;
     width: 75%;
     height: 75%;
+    background-color: lightskyblue;
   }
 
   thead, tbody

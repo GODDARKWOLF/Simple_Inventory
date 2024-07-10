@@ -13,7 +13,7 @@
     font-size: 18;
     text-align: center;
     margin: 10px;
-    background-color: lightblue;
+    background-color: orange;
 
   }
 
@@ -30,12 +30,12 @@
 
   textarea, input
   {
-    border: 1px solid #ccc;
+    border: 3px solid #ccc;
   }
 
   textarea:focus, input[type="text"]:focus
   {
-    outline: 1px solid purple;
+    outline: 3px solid purple;
   }
 
   textarea
