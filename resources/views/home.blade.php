@@ -1,5 +1,33 @@
 <title>Inventory</title>
-<link rel="stylesheet" href="/resources/views/CSS/main.css">
+<style>
+  .main_display
+  {
+    margin: auto;
+    width: 500px;
+  }
+
+  body
+  {
+
+    font-family: 'Franklin Gothic Medium';
+    font-size: medium;
+    margin: 10px;
+    background-color: blueviolet;
+
+  }
+
+  button
+  {
+    background-color: #ccc;
+  }
+
+  button:hover
+  {
+    background-color: hotpink;
+    cursor: pointer;
+  }
+
+</style>
 
 <section class="create">
   <label for="add">Do you wish to add an item?</label>

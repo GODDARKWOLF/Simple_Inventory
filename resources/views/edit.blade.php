@@ -1,6 +1,58 @@
 @include('home')
 <title>Editing Page</title>
-<link rel="stylesheet" href="/resources/views/CSS/edit.css">
+<style>
+  .edit
+  {
+    margin: auto;
+    width: 500px;
+  }
+
+  body
+  {
+
+    font-family: 'Franklin Gothic Medium';
+    font-size: medium;
+    margin: 10px;
+    background-color: burlywood;
+
+  }
+
+  button
+  {
+    background-color: #ccc;
+  }
+
+  button:hover
+  {
+    background-color: hotpink;
+    cursor: pointer;
+  }
+
+  textarea, input
+  {
+    border: 1px solid #ccc;
+  }
+
+  textarea:focus, input[type="text"]:focus
+  {
+    outline: 1px solid purple;
+  }
+
+  textarea
+  {
+    width: 100%;
+    height: 100%;
+    resize: both;
+  }
+
+  input[type="text"],textarea,select,button
+  {
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+</style>
+
 <!-- I just copied the code in create and changed the form method to put and the placeholder 
   to value so that it has the right information to change -->
 <section class="edit">

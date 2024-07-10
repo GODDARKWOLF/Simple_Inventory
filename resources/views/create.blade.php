@@ -1,5 +1,50 @@
 <title>Creation</title>
-<link rel="stylesheet" href="/resources/views/CSS/create.css">
+<style>
+  .wrapper-main
+  {
+    margin: auto;
+    width: 500px;
+  }
+
+  body
+  {
+
+    font-family: 'Franklin Gothic Medium';
+    font-size: medium;
+    margin: 10px;
+    background-color: gray;
+
+  }
+
+  button
+  {
+    background-color: #ccc;
+  }
+
+  button:hover
+  {
+    background-color: hotpink;
+    cursor: pointer;
+  }
+
+  textarea, input
+  {
+    border: 1px solid #ccc;
+  }
+
+  textarea:focus, input[type="text"]:focus
+  {
+    outline: 1px solid purple;
+  }
+
+  textarea
+  {
+    width: 100%;
+    height: 100%;
+    resize: both;
+  }
+</style>
+
 <div>
     <section class="wrapper-main">
       <body>
