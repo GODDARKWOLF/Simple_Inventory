@@ -1,5 +1,5 @@
 <title>Creation</title>
-<link rel="stylesheet" href="/resources/css/create.css">
+<link rel="stylesheet" href="/resources/views/CSS/create.css">
 <div>
     <section class="wrapper-main">
       <body>

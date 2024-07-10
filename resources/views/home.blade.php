@@ -1,5 +1,5 @@
 <title>Inventory</title>
-<link rel="stylesheet" href="/resources/css/main.css">
+<link rel="stylesheet" href="/resources/views/CSS/main.css">
 
 <section class="create">
   <label for="add">Do you wish to add an item?</label>
