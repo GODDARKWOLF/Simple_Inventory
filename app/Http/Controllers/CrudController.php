@@ -68,6 +68,7 @@ class CrudController extends Controller
   //method deleting an item from the table/database
   public function delete_data(Item $id) //Using the model to get the id of the element
   {
+    //'Item $id' is the same as '$id = Item::findorfail($id)'
     $id -> delete(); //deletes item located at this id
 
     return redirect()->route('display')->with('deletion_done','Item has been deleted.'); //function redirects the user to the page that is displaying the table
