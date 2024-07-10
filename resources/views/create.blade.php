@@ -39,9 +39,15 @@
 
   textarea
   {
-    width: 25%;
-    height: 25%;
+    width: 50%;
+    height: 50%;
     resize: both;
+  }
+
+  input[type="text"],textarea,input[type="number"],button
+  {
+    padding: 10px;
+    border-radius: 10px;
   }
 </style>
 
