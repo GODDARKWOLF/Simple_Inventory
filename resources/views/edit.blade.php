@@ -1,4 +1,3 @@
-@include('home')
 <title>Editing Page</title>
 <style>
   .edit
@@ -63,6 +62,7 @@
   to value so that it has the right information to change -->
 <section class="edit">
   <body>
+    {{$id -> $table_data}}
     <form action="{{route('edit_item',$id->id)}}" method="POST">
       @csrf
       @method('PUT')
