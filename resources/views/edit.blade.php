@@ -76,7 +76,7 @@
           <textarea name="Info" id="Info">{{$id->Description}}</textarea>
           <br><br>
   
-          <label for="Quantity">Amount</label>
+          <label for="Quantity">Quantity</label>
           <br>
           <input type="number" name="Quantity" id="Quantity" value="{{$id->Quantity}}">
           <br><br>

@@ -65,7 +65,7 @@
           @csrf
           <label for="Item_name">Item</label>
           <br>
-          <input type="text" name="Item_name" id="Item" placeholder="Enter the name of the item">
+          <input type="text" name="Item_name" id="Item" placeholder="Enter the name of the item" required>
           @error('Item_name')
             <span class="fs-6" text='danger'>{{$message}}</span>
           @enderror
@@ -73,15 +73,15 @@
   
           <label for="Info">Info</label>
           <br>
-          <textarea name="Info" id="Info" placeholder="Enter infomation that describes this item"></textarea>
+          <textarea name="Info" id="Info" placeholder="Enter infomation that describes this item" required></textarea>
           @error('Info')
             <span class="fs-6" text='danger'>{{$message}}</span>
           @enderror
           <br><br>
   
-          <label for="Quantity">Amount</label>
+          <label for="Quantity">Quantity</label>
           <br>
-          <input type="number" name="Quantity" id="Quantity">
+          <input type="number" name="Quantity" id="Quantity" required>
           @error('Quantity')
             <span class="fs-6" text='danger'>{{$message}}</span>
           @enderror
