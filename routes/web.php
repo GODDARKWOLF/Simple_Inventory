@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\itemController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 use App\Http\Controllers\CrudController;
@@ -17,7 +16,7 @@ Route::post('/create',[CrudController::class,'store'])->name('list_create');
 Route::get('/',[CrudController::class,'display_table'])->name('display');
 
 //route to delete data from the table/database
-Route::delete('/home/{id}',[CrudController::class,'delete_data'])->name('delete_item');
+Route::delete('/{id}',[CrudController::class,'delete_data'])->name('delete_item');
 
 //route to edit data within the table/database
 Route::get('/edit/{id}',[CrudController::class, 'edit_display'])->name('edit_page');
